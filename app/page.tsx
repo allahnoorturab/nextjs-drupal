@@ -25,7 +25,7 @@ export default async function Home() {
 
   return (
     <>
-      <h1 className="mb-10 text-6xl font-black">Latest Articles.</h1>
+      <h1 className="mb-10 text-6xl font-black">Latest Articles</h1>
       {nodes?.length ? (
         nodes.map((node) => (
           <div key={node.id}>
